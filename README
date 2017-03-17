@@ -1,6 +1,4 @@
-# My lil' WSGI skeleton for Apache.
+My skeleton for WSGI
 
-* Subclass WSGIApp
-* Write a process_request method that takes environ and returns status, headers,
-  and data, e.g. ('200 OK', {'Some-Header': 'doot'}, 'Hello')
-* That's pretty much it
+* Have Apache with mod_wsgi, mod_rewrite, and htaccess allowed
+* Navigate to this directory

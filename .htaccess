@@ -1,8 +1,5 @@
 AddHandler wsgi-script .wsgi
 
-DirectoryIndex app.wsgi
-ErrorDocument 404 app.wsgi
-
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)$ /app.wsgi/$1 [QSA,PT,L]
